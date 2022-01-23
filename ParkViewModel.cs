@@ -108,7 +108,7 @@ namespace RGDTest
             string readedLine;
             try
             {
-                StreamReader sr = new StreamReader("graphData.txt");
+                StreamReader sr = new StreamReader("waysData.txt");
                 readedLine = sr.ReadLine();
                 while (readedLine != null)
                 {
